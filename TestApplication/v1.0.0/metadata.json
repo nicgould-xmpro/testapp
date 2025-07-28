@@ -1,0 +1,44 @@
+{
+  "PackageInfo": {
+    "PackageName": "TestApplication",
+    "TagName": "v1.0.0",
+    "ExportedOn": "2025-07-28T01:25:49.832323Z",
+    "ExportedBy": "72"
+  },
+  "Applications": [
+    {
+      "Resource": {
+        "ResourceName": "Nic Test",
+        "ResourceId": "204",
+        "ResourceType": 1,
+        "ResourcePath": "TestApplication/v1.0.0/applications/6f3a96d2-e44e-464f-a215-eadd217d225d/1.0/6f3a96d2-e44e-464f-a215-eadd217d225d.xml",
+        "ResourceVersion": "1"
+      },
+      "Id": 204,
+      "UniversalId": "6f3a96d2-e44e-464f-a215-eadd217d225d",
+      "Name": "Nic Test",
+      "Description": "test application",
+      "Version": "1.0"
+    }
+  ],
+  "Connectors": [
+    {
+      "Id": "31b4ce95-d738-489f-bc9e-600635116a1a",
+      "Name": "Data Streams Connector",
+      "Type": "XMPro.Integration.DataStreams.DataStreamsConnector",
+      "Version": 2.001
+    },
+    {
+      "Id": "03dd4224-0e4a-4c5d-acd7-ad9b5c031c10",
+      "Name": "Recommendations Connector",
+      "Type": "XMPro.Integration.Recommendation.Connector",
+      "Version": 1.05
+    }
+  ],
+  "DataStreams": [],
+  "Agents": [],
+  "Recommendations": [],
+  "RecommendationForms": [],
+  "ServerVariables": [],
+  "Collections": []
+}
